@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header id="body-header" class="mleft3vw mright3vw">
+        <div id="top-row-container" class="flex-rw spc-evn">
+            <div id="name-icon-container">
+                <img class="app-icon" src="Images/music-app-icon.svg">
+                <div class="flex-col spc-btw inlBlck">
+                    <div class="ff fw-600">My</div>
+                    <div class="ff fw-600">Studio</div>
+                </div>
+
+            </div>
+
+            <div>
+                <span id="fav-spn" class="ff fw-600 mleft3vw">Favourites</span>
+            </div>
+
+
+            <div id="search-bar-container" class="flex-rw spc-btw mleft3vw">
+                <input id="search-bar-id" type="text" placeholder="Search...">
+                <button type="submit" id="search-button"><i class="fa fa-search"></i></button>
+            </div>
+            <div>
+                <a href="#body-header"><img class="icn4vh icn-black mleft3vw" src="Images/bell.svg"></a>
+
+            </div>
+
+            <div>
+                <a href="body-header"><img class="profile-img mleft3vw" src="Images/Divyam.jpg"></a>
+            </div>
+
+        </div>
+        <!-- logo name favourites searchbar(including search icon and voice icon) notification icon with red dot profileIcon   -->
+
+    </header>
+    <main id="main-class">
+
+        <div id="columns-container" class="mleft3vw mright3vw flex-rw start">
+            <!-- col1 starts -->
+            <div id="col1" class="mleft3vw flex-col spc-btw">
+                <!-- Carousel Section starts-->
+                <section class="carousel">
+                   <div class="carousel-music-container flex-rw spc-btw">
+                        <div class="carousel-music-box flex-col start ">
+                            <div>
+                                <img class="carousel-image " src="Images/carousel-images/carousel-1.jpg">
+                            </div>
+                        </div>
+
+                        <div class="carousel-music-box flex-col start">
+                            <div>
+                                <img class="carousel-image" src="Images/carousel-images/carousel-5.jpg">
+                            </div>
+                        </div>
+
+                        <div class="carousel-music-box flex-col start">
+                            <div>
+                                <img class="carousel-image " src="Images/carousel-images/carousel-2.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Carousel Ends-->
+                <!-- Latest Releases -->
+                <section id="latest-release-section">
+                    <div class="ff fw-600 mbot3vh txt-center">Latest Releases</div>
+                    <div id="flex-area-for-singles" class="flex-rw wrap ff fw-600">
+                        <div class="latest-release-single flex-rw start mbot3vh" click="openPlayerOnClick()">
+                            <div class="latest-release-album-img-div">
+                               <a href="#music-player"> <img class="latest-release-album-img"src="Images/latest-releases/I Dare You.png"></a>
+                            </div>
+                            <div class="single-release-info">
+                                <div class="single-title">I Dare You</div>
+                                <div class="single-release-date">April 16, 2020</div>
+                            </div>
+                            <div class="track-duration">
+                                <div class="dropdown">
+                                    <img class="single-options " src="Images/open-menu.svg">
+                                    <div class="dropdown-content">
+                                        <div class="flex-rw start">
+
+                                            <img class= "dropdown-icon" src="Images/play.svg">
+                                            <div>Play Now</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/plus.svg">
+                                            <div>Add To Queue</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/star.svg">
+                                            <div>Add To Favorites</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/info.svg">
+                                            <div>Get Info</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>3:36</div>
+                            </div>
+                        </div>
+
+                        <div class="latest-release-single flex-rw start mbot3vh">
+                            <div class="latest-release-album-img-div">
+                                <img class="latest-release-album-img"
+                                    src="Images/latest-releases/I'm Ready.png">
+                            </div>
+                            <div>
+                                <div class="single-title">I'm Ready</div>
+                                <div class="single-release-date">April 16, 2020</div>
+                            </div>
+                            <div class="track-duration">
+                                <div class="dropdown">
+                                    <img class="single-options " src="Images/open-menu.svg">
+                                    <div class="dropdown-content">
+                                        <div class="flex-rw start">
+
+                                            <img class= "dropdown-icon" src="Images/play.svg">
+                                            <div>Play Now</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/plus.svg">
+                                            <div>Add To Queue</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/star.svg">
+                                            <div>Add To Favorites</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/info.svg">
+                                            <div>Get Info</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>3:21</div>
+                            </div>
+                        </div>
+
+                        <div class="latest-release-single flex-rw start mbot3vh">
+                            <div class="latest-release-album-img-div">
+                                <img class="latest-release-album-img"
+                                    src="Images/latest-releases/Dandelion.png">
+                            </div>
+                            <div>
+                                <div class="single-title">Dandelion</div>
+                                <div class="single-release-date">April 17, 2020</div>
+                            </div>
+                            <div class="single-options-container">
+
+                            </div>
+                            <div class="track-duration">
+                                <div class="dropdown">
+                                    <img class="single-options " src="Images/open-menu.svg">
+                                    <div class="dropdown-content">
+                                        <div class="flex-rw start">
+
+                                            <img class= "dropdown-icon" src="Images/play.svg">
+                                            <div>Play Now</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/plus.svg">
+                                            <div>Add To Queue</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/star.svg">
+                                            <div>Add To Favorites</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/info.svg">
+                                            <div>Get Info</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>2:41</div>
+                            </div>
+
+                        </div>
+
+                        <div class="latest-release-single flex-rw start mbot3vh">
+                            <div class="latest-release-album-img-div">
+                                <img class="latest-release-album-img" src="Images/latest-releases/Boyfriend.png">
+                            </div>
+                            <div>
+                                <div class="single-title">Boyfriend</div>
+                                <div class="single-release-date">April 9, 2020</div>
+                            </div>
+                            <div class="track-duration">
+                                <div class="dropdown">
+                                    <img class="single-options " src="Images/open-menu.svg">
+                                    <div class="dropdown-content">
+                                        <div class="flex-rw start">
+
+                                            <img class= "dropdown-icon" src="Images/play.svg">
+                                            <div>Play Now</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/plus.svg">
+                                            <div>Add To Queue</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/star.svg">
+                                            <div>Add To Favorites</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/info.svg">
+                                            <div>Get Info</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>2:41</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Latest Releases Ends-->
+
+                <!-- Popular Artists starts -->
+                <section id="popular-artists-section" class="ff fw-600">
+                    <div class="ff fw-600 mbot3vh txt-center">Popular Artists</div>
+                    <div id="popular-artists-container" class="flex-rw spc-btw">
+                        <div class="popular-artist-container flex-col start flex-bas-0">
+                            <div>
+                                <a href="file:///E:/MajorProject/music-player-web/SinglePlaylistScreen.html" target="blank">
+                                <img class="popular-artist-image brad5" src="Images/popular-artists/Eminem.jpg">
+                                </a>
+                            </div>
+                            <div class="popular-artist-name txt-center">Eminem</div>
+                        </div>
+
+                        <div class="flex-col start flex-bas-0">
+                            <div>
+                                <img class="popular-artist-image brad5"
+                                    src="Images/popular-artists/Camilla Cabello.jpg">
+                            </div>
+                            <div class="popular-artist-name txt-center">Camilla Cabello</div>
+                        </div>
+
+                        <div class="flex-col start flex-bas-0">
+                            <div>
+                                <img class="popular-artist-image brad5" src="Images/popular-artists/Justin Bieber.jpg">
+                            </div>
+                            <div class="popular-artist-name txt-center">Justin Bieber</div>
+                        </div>
+
+                        <div class="flex-col start flex-bas-0">
+                            <div>
+                                <img class="popular-artist-image brad5" src="Images/popular-artists/Katy Perry.jpg">
+                            </div>
+                            <div class="popular-artist-name txt-center">Katy Perry</div>
+                        </div>
+
+                        
+
+                        <div class="flex-col start flex-bas-0">
+                            <div>
+                                <img class="popular-artist-image brad5" src="Images/popular-artists/Ed Sheeran.jpg">
+                            </div>
+                            <div class="popular-artist-name txt-center">Ed Sheeran</div>
+                        </div>
+
+                        <div class="flex-col start flex-bas-0">
+                            <div>
+                                <img class="popular-artist-image brad5" src="Images/popular-artists/Taylor Swift.jpg">
+                            </div>
+                            <div class="popular-artist-name txt-center">Taylor Swift</div>
+                        </div>
+
+                        <div class="flex-col start flex-bas-0">
+                            <div>
+                                <img class="popular-artist-image brad5"
+                                    src="Images/popular-artists/Shawn Mendes.jpg">
+                            </div>
+                            <div class="popular-artist-name txt-center">Shawn Mendes</div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Popular artists ends -->
+
+                <!-- stations start -->
+                <section id="stations-section" class="ff fw-600">
+                    <div class="mbot3vh txt-center">Radio Stations</div>
+                    <div id="stations-container" class="flex-rw spc-btw">
+                        <div class="station-container flex-col start flex-bas-0">
+                            <div>
+                                <img class="radio-image brdrad1 opac" src="Images/radio-stations/All That Jazz.jpg">
+                            </div>
+                            <div class="radio-station-genre txt-center popular-artist-name">All That Jazz</div>
+                        </div>
+
+                        <div class="station-container flex-col start flex-bas-0">
+                            <div>
+                                <img class="radio-image brdrad1 opac" src="Images/radio-stations/Romantic.jpg">
+                            </div>
+                            <div class="radio-station-genre txt-center popular-artist-name">Romantic</div>
+                        </div>
+
+                        <div class="station-container flex-col start flex-bas-0">
+                            <div>
+                                <img class="radio-image brdrad1 opac" src="Images/radio-stations/Classic.jpg">
+                            </div>
+                            <div class="radio-station-genre txt-center popular-artist-name">Classic</div>
+                        </div>
+
+                        <div class="station-container flex-col start flex-bas-0">
+                            <div>
+                                <img class="radio-image brdrad1 opac" src="Images/radio-stations/Party.jpg">
+                            </div>
+                            <div class="radio-station-genre txt-center popular-artist-name">Party</div>
+                        </div>
+
+                        <div class="station-container flex-col start flex-bas-0">
+                            <div>
+                                <img class="radio-image brdrad1 opac" src="Images/radio-stations/workout.jpg">
+                            </div>
+                            <div class="radio-station-genre txt-center popular-artist-name">Workout</div>
+                        </div>
+
+                        <div class="station-container flex-col start flex-bas-0">
+                            <div>
+                                <img class="radio-image brdrad1 opac" src="Images/radio-stations/rock.jpg">
+                            </div>
+                            <div class="radio-station-genre txt-center popular-artist-name">Rock</div>
+                        </div>
+                        <div class="station-container flex-col start flex-bas-0">
+                            <div>
+                                <img class="radio-image brdrad1 opac" src="Images/radio-stations/WeekendDrive.jpg">
+                            </div>
+                            <div class="radio-station-genre txt-center popular-artist-name">Weekend Drive</div>
+                        </div>
+                    </div>
+                </section>
+                <!-- stations end -->
+
+                <!-- occasion music starts -->
+                <section id="occasion-music" class="ff fw-600">
+                    <div class="mbot3vh txt-center">Mood</div>
+                    <div class="occasion-music-container flex-rw spc-btw">
+                        <div class="occasion-music-box flex-col start">
+                            <div>
+                                <img class="occasion-image brdrad5 opac" src="Images/occasion/MoodBooster.jpg">
+                            </div>
+                            <div class="radio-station-genre txt-center">Mood Booster</div>
+                        </div>
+
+                        <div class="occasion-music-box flex-col start">
+                            <div>
+                                <img class="occasion-image brdrad5 opac" src="Images/occasion/Feelin'Good.jpg">
+                            </div>
+                            <div class="radio-station-genre txt-center">Feelin'Good</div>
+                        </div>
+
+                        <div class="occasion-music-box flex-col start">
+                            <div>
+                                <img class="occasion-image brdrad5 opac" src="Images/occasion/HeartBeats.jpg">
+                            </div>
+                            <div class="radio-station-genre txt-center">Heart Beats</div>
+                        </div>
+
+                        <div class="occasion-music-box flex-col start">
+                            <div>
+                                <img class="occasion-image brdrad5 opac" src="Images/occasion/RomanticAcoustics.jpg">
+                            </div>
+                            <div class="radio-station-genre txt-center">Romantic Acoustics</div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- occasion music ends -->
+
+                <!-- latest english starts -->
+                <section id="latest-english-section" class="ff fw-600">
+                    <div class="mbot3vh txt-center">Latest English</div>
+                    <div class="flex-rw spc-btw">
+
+                        <div class="latest-english flex-col start flex-bas-0">
+                            <div>
+                                <img class="latest-release-album-img" src="Images/Latest English/Toosie Slide.jpg">
+                            </div>
+                            <div class="single-title mar0">
+                               Toosie Slide
+                            </div>
+                            <div class="single-release-date mar0"> Apr 3, 2020</div>
+                        </div>
+
+                        <div class="latest-english flex-col start flex-bas-0">
+                            <div>
+                                <img class="latest-release-album-img"
+                                    src="Images/Latest English/I-m-Ready.jpg">
+                            </div>
+                            <div class="single-title mar0">
+                                <span>I-m-Ready</span>
+                            </div>
+                            <div class="single-release-date mar0">Apr 16, 2020</div>
+                        </div>
+
+                        <div class="latest-english flex-col start flex-bas-0">
+                            <div>
+                                <img class="latest-release-album-img"
+                                    src="Images/Latest English/Nothing-Really-Matters.jpg">
+                            </div>
+                            <div class="single-title mar0">
+                                <span>Nothing-Really-Matters</span>
+                            </div>
+                            <div class="single-release-date mar0"> Apr 17, 2020</div>
+                        </div>
+
+                        <div class="latest-english flex-col start flex-bas-0">
+                            <div>
+                                <img class="latest-release-album-img" src="Images/Latest English/Rare-Deluxe.jpg">
+                            </div>
+                            <div class="single-title mar0">
+                                <span>Rare-Deluxe</span>
+                            </div>
+                            <div class="single-release-date mar0">Apr 9, 2020</div>
+                        </div>
+
+                        <div class="latest-english flex-col start flex-bas-0">
+                            <div>
+                                <img class="latest-release-album-img" src="Images/Latest English/Heading-Home.jpg">
+                            </div>
+                            <div class="single-title mar0">
+                                <span>Heading-Home</span>
+                            </div>
+                            <div class="single-release-date mar0">Apr 1, 2020</div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- latest english ends -->
+
+                <!-- latest Hindi starts -->
+                <section id="latest-hindi-section" class="ff fw-600">
+                    <div class="mbot3vh txt-center">Latest Hindi</div>
+                    <div class="flex-rw spc-btw">
+
+                        <div class="latest-hindi flex-col start flex-bas-0">
+                            <div>
+                                <img class="latest-release-album-img" src="Images/Latest Hindi/Aaj-Bhi-Hindi.jpg">
+                            </div>
+                            <div class="single-title mar0">
+                                Aaj Bhi
+                            </div>
+                            <div class="single-release-date mar0">Apr 9, 2020</div>
+                        </div>
+
+                        <div class="latest-hindi flex-col start flex-bas-0">
+                            <div>
+                                <img class="latest-release-album-img" src="Images/Latest Hindi/Moscow-Mashuka.jpg">
+                            </div>
+                            <div class="single-title mar0">
+                                <span>Moscow Mashuka</span>
+                            </div>
+                            <div class="single-release-date mar0">Apr 14, 2020</div>
+                        </div>
+
+                        <div class="latest-hindi flex-col start flex-bas-0">
+                            <div>
+                                <img class="latest-release-album-img" src="Images/Latest Hindi/Kuch-Bhi-Ho-Jaye.jpg">
+                            </div>
+                            <div class="single-title mar0">
+                                <span>Kuch Bhi Ho Jaye</span>
+                            </div>
+                            <div class="single-release-date mar0">Apr 9, 2020</div>
+                        </div>
+
+                        <div class="latest-hindi flex-col start flex-bas-0">
+                            <div>
+                                <img class="latest-release-album-img" src="Images/Latest Hindi/Mr-Nair.jpg">
+                            </div>
+                            <div class="single-title mar0">
+                                <span>Mr. Nair</span>
+                            </div>
+                            <div class="single-release-date mar0">Apr 13, 2020</div>
+                        </div>
+
+                        <div class="latest-hindi flex-col start flex-bas-0">
+                            <div>
+                                <img class="latest-release-album-img" src="Images/Latest Hindi/Jinke-Liye-From-Jaani-Ve.jpg">
+                            </div>
+                            <div class="single-title mar0">
+                                <span>Jinke Liye</span>
+                            </div>
+                            <div class="single-release-date mar0"> Mar 31, 2020</div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+
+                <!-- latest Hindi ends -->
+            </div>
+            <!-- col1 ends -->
+
+            <!-- col2 starts -->
+            <div id="col2" class="mleft3vw">
+                <section id="queue-container" class="ff fw-600">
+                    <div class="queue-container flex-col start">
+                        <div class="queue-heading flex-rw spc-btw">
+                            <div class="queue-title">Queue</div>
+                            <div>
+                                <div class="queue-option-title inlBlck">Queue</div>
+                                <div class="dropdown inlBlck">
+                                    <img class="options-icon mleft3vw" src="Images/download.svg">
+                                    <div class="dropdown-content queue-drop-font">
+                                        <div>Playlists</div>
+                                        <hr>
+                                        <div>Favorite Songs</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="queue-item flex-rw start">
+                            <div class="s-no">01</div>
+                            <img class="queue-song-image " src="Images/queue/Havana.jpg">
+                            <div class="queue-song-info flex-col start">
+                                <div class="song-title">Havana</div>
+                                <div class="singer-name">Camila Cabello,Young Thug</div>
+                            </div>
+                            <img class="queue-like-icon" src="Images/heart.svg">
+                        </div>
+
+                        <div class="queue-item flex-rw start">
+                            <div class="s-no">02</div>
+                            <img class="queue-song-image " src="Images/queue/Attention.jpg">
+                            <div class="queue-song-info flex-col start">
+                                <div class="song-title">Attention</div>
+                                <div class="singer-name">Charlie Puth</div>
+                            </div>
+                            <img class="queue-like-icon" src="Images/heart.svg">
+                        </div>
+
+                        <div class="queue-item flex-rw start">
+                            <div class="s-no">03</div>
+                            <img class="queue-song-image " src="Images/queue/Despacito.jpg">
+                            <div class="queue-song-info flex-col start">
+                                <div class="song-title">Despacito</div>
+                                <div class="singer-name">Luis Fonsi</div>
+                            </div>
+                            <img class="queue-like-icon" src="Images/heart.svg">
+                        </div>
+
+                        <div class="queue-item flex-rw start">
+                            <div class="s-no">04</div>
+                            <img class="queue-song-image " src="Images/queue/On My Way.jpg">
+                            <div class="queue-song-info flex-col start">
+                                <div class="song-title">On My Way</div>
+                                <div class="singer-name">Alan Walker,Sabrina Carpenter</div>
+                            </div>
+                            <img class="queue-like-icon" src="Images/heart.svg">
+                        </div>
+
+                        <div class="queue-item flex-rw start">
+                            <div class="s-no">05</div>
+                            <img class="queue-song-image " src="Images/queue/Girls Like You.jpg">
+                            <div class="queue-song-info flex-col start">
+                                <div class="song-title">Girls Like You</div>
+                                <div class="singer-name">Maron 5,Cardi B</div>
+                            </div>
+                            <img class="queue-like-icon" src="Images/heart.svg">
+                        </div>
+
+                        <div class="queue-item flex-rw start">
+                            <div class="s-no">06</div>
+                            <img class="queue-song-image " src="Images/queue/Senorita.jpg">
+                            <div class="queue-song-info flex-col start">
+                                <div class="song-title">Senorita</div>
+                                <div class="singer-name">Shawn Mendes,Camila Cabello</div>
+                            </div>
+                            <img class="queue-like-icon" src="Images/heart.svg">
+                        </div>
+
+                        <div class="queue-item flex-rw start">
+                            <div class="s-no">07</div>
+                            <img class="queue-song-image " src="Images/queue/Taki Taki.jpg">
+                            <div class="queue-song-info flex-col start">
+                                <div class="song-title">Taki Taki</div>
+                                <div class="singer-name">DJ Snake,Selena Gomez</div>
+                            </div>
+                            <img class="queue-like-icon" src="Images/heart.svg">
+                        </div>
+
+                        <div class="queue-item flex-rw start">
+                            <div class="s-no">08</div>
+                            <img class="queue-song-image " src="Images/queue/FRIENDS.jpg">
+                            <div class="queue-song-info flex-col start">
+                                <div class="song-title">FRIENDS</div>
+                                <div class="singer-name">Marshmello,Anne-Marie</div>
+                            </div>
+                            <img class="queue-like-icon" src="Images/heart.svg">
+                        </div>
+
+                        <div class="queue-item flex-rw start">
+                            <div class="s-no">09</div>
+                            <img class="queue-song-image " src="Images/queue/Ignite.jpg">
+                            <div class="queue-song-info flex-col start">
+                                <div class="song-title">Ignite</div>
+                                <div class="singer-name">Allan Walker,Julie Bergan</div>
+                            </div>
+                            <img class="queue-like-icon" src="Images/heart.svg">
+                        </div>
+
+                        <div class="queue-item flex-rw start">
+                            <div class="s-no">10</div>
+                            <img class="queue-song-image " src="Images/queue/Sunflower.jpg">
+                            <div class="queue-song-info flex-col start">
+                                <div class="song-title">Sunflower</div>
+                                <div class="singer-name">Post Malon,Swae Lee</div>
+                            </div>
+                            <img class="queue-like-icon" src="Images/heart.svg">
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+            <!-- col 2 ends -->
+        </div>
+        <!-- Music Player -->
+        <div id="music-player">
+            <div class="flex-rw spc-btw music-player-container ff fw-600">
+                <div class="flex-rw start">
+                    <img class="current-song-image" src="Images/latest-releases/I Dare You.png">
+                    <div class="current-track-info flex-col start">
+                        <div class="single-title">
+                            I Dare You
+                        </div>
+                        <div class="current-song-singer-name">
+                            Kelly Clarkson
+                        </div>
+                    </div>
+                    <img class="current-song-like-icon" src="Images/heart.svg">
+                    <img class="current-song-block-icon" src="Images/block.svg">
+                </div>
+
+
+
+                <div class="music-player-controls flex-col ">
+                    <div class="music-player-buttons flex-rw center">
+                        <img class="controls-icon" src="Images/random.svg">
+                        <img class="controls-icon" src="Images/previous-music.svg">
+                        <img class="play-pause-icon" src="Images/pause.svg">
+                        <img class="controls-icon" src="Images/next-music.svg">
+                        <img class="controls-icon" src="Images/repeat.svg">
+                    </div>
+                    <div class="music-bar flex-rw center">
+                        <div class="bar-time">
+                            1:68
+                        </div>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                        <div class="bar-time">
+                            3:36
+                        </div>
+                    </div>
+                </div>
+
+                <div class="music-player-volume flex-rw start">
+                    <img class="controls-icon volume-icon" src="Images/sound.svg">
+                    <div class="volume-slide-container">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- Music Player ends -->
+    </main>
+</body>
+
+</html>
