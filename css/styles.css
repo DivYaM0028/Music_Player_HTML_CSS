@@ -1,7 +1,6 @@
 /* body */
 body{
-    
-    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    background: #e0eafc;
 }
 section{
     margin-top: 5vh;
@@ -58,26 +57,24 @@ section{
 
 /* carousel div */
 .carousel{
-    position: relative;
-    height: 35vh;
+    /* position: relative; */
+    height: 42vh;
     width: 100%;
 }
 
-.carousel-image{
-    width:  85%;
-    height: 35vh;
-    padding: 0.5rem;
-    border-radius: 5.5%;
-    transition: ease-in-out 0.25s;
+ .carousel-image {
+    display: block;
+    width:  95%;
+    height: 40vh; 
+    border-radius: 7px;
+    transition: .25s ease-in-out;
+    filter: blur(0px);
 }
-.carousel-music-box:hover .carousel-image{
-    height: 16.5rem;
-    width: 16rem;
-    padding: 0.85rem;
-    border-radius: 7.5%;
+.carousel-music-box:hover .carousel-image {
+    transform: scaleY(1.1) scaleX(1.05);
+    /* filter: blur(5px); */
+    filter: blur(0px);
 }
-
-
 /* carousel div ends */
 
 /* latest release section */
@@ -399,7 +396,6 @@ section{
     appearance: none;
     width: 100% ;
     height: 0.25rem; 
-    background: #d3d3d3; 
     outline: none; 
     opacity: 0.7; 
     -webkit-transition: .2s; 
@@ -423,7 +419,7 @@ section{
   .slider::-moz-range-thumb {
     width: 25px; /* Set a specific slider handle width */
     height: 25px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
+    background:black
     cursor: pointer; /* Cursor on hover */
   }
 /* Music Player Slider Ends */
@@ -557,4 +553,139 @@ section{
 #search-button{
     background-color: white;
     border : 0px ; 
+}
+/* Addtion Queue Side Bar */
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: initial;
+  z-index: 1;
+  top: 52px;
+  right : 0;
+  background-color:#2F80ED;
+  border-radius: 5px;
+  visibility: hidden;
+
+}
+
+.sidenav div{
+    padding: 6px 8px 15px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Sidebar Queue end */
+
+
+
+/* Making it Responsive adding media queries */
+
+
+@media (max-width : 1080px){
+    #carousel-image1{
+        width: 450px;
+        height: 300px;
+        display: block;
+        margin-left: 70px;
+        margin-right: auto;
+    }
+    #carousel-image2{
+        visibility: hidden;
+    }
+    #carousel-image3{
+        visibility: hidden;
+    }
+}
+@media (max-width : 915px){
+    #carousel-image1{
+        width: 400px;
+        height: 300px;
+        display: block;
+        margin-left: 25px;
+        margin-right: auto;
+    }
+    #carousel-image2{
+        visibility: hidden;
+    }
+    #carousel-image3{
+        visibility: hidden;
+    }
+}
+
+@media (max-width : 800px){
+    #carousel-image1{
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin-left: 50px;
+        margin-right: auto;
+    }
+    #carousel-image2{
+        visibility: hidden;
+    }
+    #carousel-image3{
+        visibility: hidden;
+    }
+}
+
+@media (max-width : 700px){
+    #carousel-image1{
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #carousel-image2{
+        visibility: hidden;
+    }
+    #carousel-image3{
+        visibility: hidden;
+    }
+}
+
+@media (max-width : 526px){
+    #carousel-image1{
+        width: 380px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+    #carousel-image2{
+        visibility: hidden;
+    }
+    #carousel-image3{
+        visibility: hidden;
+    }
+    #col2{
+        visibility: hidden;
+    }
+    #sidebarQueue{
+        visibility: visible;
+    }
+}
+
+@media (max-width : 420px){
+    #carousel-image1{
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #carousel-image2{
+        visibility: hidden;
+    }
+    #carousel-image3{
+        visibility: hidden;
+    }
+    #col2{
+        visibility: hidden;
+    }
+    #sidebarQueue{
+        visibility: visible;
+    }
 }
